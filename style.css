@@ -57,8 +57,12 @@
             font-weight: bold;
             font-size: large;
         }
-        .active {
+        .active  {
             color: #ffffff !important;
+        }
+        .my-iconheader-active{
+            color: #ffffff !important;
+            padding-bottom: 20px;
         }
         .nav-link:hover{
             color: #ffffff !important;
@@ -68,7 +72,12 @@
 
         .my-iconheader {
             padding-bottom: 20px;
+            color: #ffffffa2;
+        }
+        .nav-link:hover .my-iconheader{
             color: #fff;
+            transition: 0.3s;
+            transform: scale(1.1);
         }
 
 
@@ -203,6 +212,7 @@
             padding-left: 10px;
             justify-content: center;
             color: #fff;
+            font-size: x-large;
         }
 
         .tampa {
